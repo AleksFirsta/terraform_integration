@@ -1,9 +1,9 @@
 terraform {
-#   backend "s3" {
-#     bucket = "terraform-morpheus-int"
-#     key    = "terraform/main.tfstate"
-#     region = "eu-north-1"
-#   }
+  #   backend "s3" {
+  #     bucket = "terraform-morpheus-int"
+  #     key    = "terraform/main.tfstate"
+  #     region = "eu-north-1"
+  #   }
 }
 
 resource "aws_vpc" "example" {
