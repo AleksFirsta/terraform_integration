@@ -12,6 +12,7 @@ variable "secret_key" {
 variable "aws_region" {
   description = "AWS region"
   type        = string
+  default     = "<%=customOptions.awsRegion%>"
 }
 
 #Dynamo DB vars
